@@ -1,0 +1,44 @@
+Electricity Bill
+
+npm init -y
+
+npm install express --save
+
+To run : node app.js
+
+Result
+
+npm init -y
+
+npm install express ejs mysql
+
+To run : node app.js
+
+student-result-website/
+|-- node_modules/            (created when you run `npm install`)
+|-- app.js                   (the main Node.js application file)
+|-- package.json             (project configuration file)
+|-- package-lock.json        (dependency lock file)
+|-- admin.html               (HTML file for the admin page)
+|-- student.html             (HTML file for the student page)
+|-- view_result.html         (HTML file for viewing results)
+|-- download_result.php      (PHP script for downloading results)  // If you want to keep it for reference
+|-- public/
+|   |-- css/
+|   |   |-- styles.css       (CSS styles for your web pages)
+|-- routes/
+|   |-- adminRoutes.js       (Express.js router for admin-related routes)
+|   |-- studentRoutes.js     (Express.js router for student-related routes)
+|   |-- resultRoutes.js      (Express.js router for result-related routes)
+|-- views/
+|   |-- admin.ejs            (EJS template for the admin page)
+|   |-- student.ejs          (EJS template for the student page)
+|   |-- view_result.ejs      (EJS template for viewing results)
+|-- controllers/
+|   |-- adminController.js   (Controller for admin-related logic)
+|   |-- studentController.js (Controller for student-related logic)
+|   |-- resultController.js  (Controller for result-related logic)
+|-- models/
+|   |-- resultModel.js       (Model for interacting with the database)
+|-- .gitignore               (specifies files to ignore in Git)
+|-- README.md                (project documentation)
