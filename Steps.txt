@@ -4,6 +4,10 @@ npm init -y
 
 npm install express --save
 
+inside public index.html
+
+app.js is there where packajge.json is
+
 To run : node app.js
 
 Result
